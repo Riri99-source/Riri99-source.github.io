@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+
+
+}
+header p
+
+header links{
+    display: flex;
+    flex-direction:flex-end;
+    /* gap: 50px; */
+    width: 80%;
+   
+}
+
+.links a{
+    color:whitesmoke;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+   
+
+
+
+}
+
+
+/* #who {
+    height: 2000px;
+} */
+
+
+
+
+h1 {
+    color: rgb(241, 216, 216);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
+.homeHeader p {
+    color:white;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.homeHeader button{
+    color:white;
+    background-color: coral;
+    border: none;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size:large;
+    align-items: center;
+    margin-bottom: 80px;
+    padding: 20px 40px;
+
+
+
+}
+
+
+.homeHeader {
+    background-image: url(./CSS/ritaimg.png);
+    background-size: cover;
+    height: 10%;
+    width: 100%;
+    display: block;
+    margin-bottom: 90px;
+
+
+}
+
+section#homeHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin: bottom 55px;
+
+}
+
+section#qui{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: coral;
+    text-decoration: underline;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+
+}
+
+section#expériences{
+
+    background-color: lightgray;
+}
+
+section#expériences>div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.expériences{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.expériences articles article{
+    width: 33%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+
+}
+
+h3{
+    color: coral;
+    
+}
+
+
+
+
+footer {
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:coral;
+    text-align: left;
+    margin-bottom: 35px;
+}
